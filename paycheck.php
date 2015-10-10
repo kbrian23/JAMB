@@ -3,21 +3,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
-<title>SLAU || ABOUT US </title>
+<title>SLAU || PAYCHECK </title>
 <style type="text/css">
 <!--
 .style1 {font-family: Georgia, "Times New Roman", Times, serif}
-.style2 {
-	font-size: x-large;
-	font-family: Geneva, Arial, Helvetica, sans-serif;
-}
 .style3 {color: #FFFFFF}
 .style10 {	color: #0066FF;
 	font-weight: bold;
 	font-family: "Times New Roman", Times, serif;
 }
 .style9 {color: #0033CC; font-style: italic; font-family: "Times New Roman", Times, serif; font-size: larger; }
-.style11 {color: #FF0000}
 -->
 </style>
 
@@ -74,7 +69,6 @@
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
 .style14 {font-size: larger}
-.style15 {color: #000099}
 .style16 {color: #B94629}
 .style17 {color: #000033}
 .style18 {font-family: Arial, Helvetica, sans-serif}
@@ -83,6 +77,11 @@
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight: bold;
 	color: #FF0000;
+}
+.style20 {
+	font-size: larger;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
 }
 </style>
 </head>
@@ -116,7 +115,6 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <p>&nbsp;</p>
     <table width="242" height="2" border="0" bgcolor="#0000FF">
       <tr>
         <th width="251" height="72" scope="col"><marquee direction="left">
@@ -146,15 +144,35 @@
 	<th width="117" bgcolor="#3300CC" scope="col"><a href="structure.php" class="style5 style3 style26 style1">STRUCTURE</a></th>
   </tr>
 </table>
-<h2 align ="center" class="style2 style1" >&nbsp;</h2>
-<h3 align="center" class="style1 style11 style14">Who we are</h3>
-<p align="left" class="style11 style1">Our quality Policy:</p>
-<p align="left" class="style13">We are young, qualified, experienced and dedicated group of professionals and technical experts providing all kinds of Informational Technology based Accounting services such as design of electronic payrolls for both staff and non-staff and many more.</p>
-<p align="left" class="style13">We are committed to creating value for both students, staff and non-staff of SLAU through our Informational Technology based Accounting services.</p>
-<p align="left" class="style13">However, students will be able to upload their BANK DRAFTS and this in the end result will bring ease for students and Accounts departments as far as time saving is concerned.</p>
-<p align="left" class="style1 style11">Our Mission:</p>
-<p align="left" class="style1 style15">We shall provide sustainable, advanced technological Accounting services to both students and Accountants' Department at St Lawrence University as far as managing staff, non-staff payrolls and other related University budgets. </p>
-<p align="left" class="style1">&nbsp;</p>
+<h2 align="center">&nbsp;</h2>
+<p align="center" class="style19">Paycheck Calculation</p>
+<p align="center">&nbsp;</p>
+<form id="form1" name="form1" method="get" action="printcheck.php">
+<table width="40%" border="0" align="center" cellpadding="1" cellspacing="1">
+<tr>
+<th width="30%" scope="row"><div align="left">Hours Worked:</div></th>
+<td width="20%"><label>
+<input type="text" name="hoursWorked" id="hours" />
+</label></td>
+</tr>
+<tr>
+<th scope="row"><div align="left">Staff Wages:</div></th>
+<td><label>
+<input type="text" name="wagesRate" id="wages" />
+</label></td>
+</tr>
+<tr>
+<th scope="row">&nbsp;</th>
+<td><label>
+<input type="submit" name="Submit" value="Submit" />
+</label></td>
+</tr>
+</table>
+
+</form>
+<p>&nbsp;</p>
+
+
 <p align="center"><span class="style1"><a href="index3.php"><img src="images/back36.png" /></a></span></p>
 <h4 align ="center"><font color="#FFFF00"> </font></h4>
 <p><font color="#FF0000"></td>

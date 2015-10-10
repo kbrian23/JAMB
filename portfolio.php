@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
-<title>SLAU || ABOUT US </title>
+<title>SLAU || PORT-FOLIO </title>
 <style type="text/css">
 <!--
 .style1 {font-family: Georgia, "Times New Roman", Times, serif}
@@ -17,7 +17,6 @@
 	font-family: "Times New Roman", Times, serif;
 }
 .style9 {color: #0033CC; font-style: italic; font-family: "Times New Roman", Times, serif; font-size: larger; }
-.style11 {color: #FF0000}
 -->
 </style>
 
@@ -69,12 +68,7 @@
 	.tfclear{
 		clear:both;
 	}
-.style13 {
-	color: #000099;
-	font-family: Georgia, "Times New Roman", Times, serif;
-}
 .style14 {font-size: larger}
-.style15 {color: #000099}
 .style16 {color: #B94629}
 .style17 {color: #000033}
 .style18 {font-family: Arial, Helvetica, sans-serif}
@@ -83,6 +77,9 @@
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight: bold;
 	color: #FF0000;
+}
+.style13 {	color: #000099;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 </style>
 </head>
@@ -125,9 +122,7 @@
         </th>
       </tr>
     </table>
-    <p class="style1">We have two intakes at St. Lawrence University (Slau) i.e. January/February and August/September intakes </p>
-    <p></p>
-    <p>&nbsp;</p>
+    <p><span class="style1">We have two intakes at St. Lawrence University (Slau) i.e. January/February and August/September intakes </span></p>
 	<h4 align="center"><a href="index3.php"></a></h4>
     <p>&nbsp;</p>
     <h4 align="center"><br />
@@ -147,13 +142,13 @@
   </tr>
 </table>
 <h2 align ="center" class="style2 style1" >&nbsp;</h2>
-<h3 align="center" class="style1 style11 style14">Who we are</h3>
-<p align="left" class="style11 style1">Our quality Policy:</p>
-<p align="left" class="style13">We are young, qualified, experienced and dedicated group of professionals and technical experts providing all kinds of Informational Technology based Accounting services such as design of electronic payrolls for both staff and non-staff and many more.</p>
-<p align="left" class="style13">We are committed to creating value for both students, staff and non-staff of SLAU through our Informational Technology based Accounting services.</p>
-<p align="left" class="style13">However, students will be able to upload their BANK DRAFTS and this in the end result will bring ease for students and Accounts departments as far as time saving is concerned.</p>
-<p align="left" class="style1 style11">Our Mission:</p>
-<p align="left" class="style1 style15">We shall provide sustainable, advanced technological Accounting services to both students and Accountants' Department at St Lawrence University as far as managing staff, non-staff payrolls and other related University budgets. </p>
+<p align ="center" class="style2 style1" >&nbsp;</p>
+<p align ="center" class="style2 style1" >&nbsp;</p>
+<p align ="center" class="style2 style1" >&nbsp;</p>
+<p align ="center" class="style2 style1" >&nbsp;</p>
+<p align ="center" class="style2 style1" >&nbsp;</p>
+<p align ="center" class="style2 style1" >&nbsp;</p>
+<p align ="center" class="style2 style1" >&nbsp;</p>
 <p align="left" class="style1">&nbsp;</p>
 <p align="center"><span class="style1"><a href="index3.php"><img src="images/back36.png" /></a></span></p>
 <h4 align ="center"><font color="#FFFF00"> </font></h4>

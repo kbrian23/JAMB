@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
-<title>SLAU || ACCOUNTING </title>
+<title>SLAU || CONTACT US </title>
 <style type="text/css">
 <!--
 .style2 {
@@ -19,7 +19,6 @@
 	font-family: "Times New Roman", Times, serif;
 }
 .style11 {font-family: "Times New Roman", Times, serif; color: #FF0000; font-weight: bold; }
-.style12 {color: #FF0000}
 .style13 {color: #FFFFFF; font-weight: bold; }
 .style14 {font-size: x-large}
 -->
@@ -72,7 +71,21 @@
 	.tfclear{
 		clear:both;
 	}
-.style15 {font-size: larger}
+.style16 {font-family: Georgia, "Times New Roman", Times, serif}
+.style17 {color: #B94629}
+.style18 {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: larger;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.style19 {color: #000033}
+.style20 {font-size: larger}
+.style21 {font-family: Arial, Helvetica, sans-serif}
+.style22 {
+	color: #0000FF;
+	font-weight: bold;
+}
 </style>
 </head>
 
@@ -91,8 +104,7 @@
 <!-- ============ HEADER SECTION ============== -->
 <td colspan="3" style="height: 30px;" bgcolor="#FFFFFF"><h1 align="center"><span class="style9">St. Lawrence </span><img src="images/logo3.fw.png" alt="SLAU" width="134" height="86" /><span class="style9">University</span></h1>
   <p align="center" class="style10">FOR ICT AND ENTREPRENEURSHIP </p>
-  <p>&nbsp;</p>
-  </td></tr>
+  <p>&nbsp;</p>  </td></tr>
 
 
 <!-- ============ NAVIGATION BAR SECTION ============== -->
@@ -100,20 +112,19 @@
 
 
 <!-- ============ LEFT COLUMN (MENU) ============== -->
-  <td width="20%" valign="top" bgcolor="#FFFFFF">
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
+  <td width="20%" valign="top" bgcolor="#FFFFFF"><p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
   <table width="242" height="2" border="0" bgcolor="#0000FF">
     <tr>
-      <th width="251" height="72" scope="col"><marquee direction="left"><p class="style13 style14">Intakes at Slau</p>
-      </marquee>
-      </th>
-    </tr>
+        <th width="251" height="72" scope="col"><marquee direction="left">
+          <p class="style13 style14 style3"><font color="#FFFFFF">Intakes at Slau</font></p>
+          </marquee>
+        </th>
+      </tr>
   </table>
-    <p>We have two intakes at St. Lawrence University (Slau) i.e. January/February and August/September intakes </p>
+    <p class="style16">We have two intakes at St. Lawrence University (Slau) i.e. January/February and August/September intakes </p>
     <p>&nbsp;</p>
     <h4 align="center"><br />
         <a href="#"></a><br />
@@ -121,51 +132,42 @@
         <a href="#"></a><br />
       <a href="#"></a></h4>
     <!-- ============ MIDDLE COLUMN (CONTENT) ============== -->
-<td width="58%" valign="top" bordercolor="#0033FF" bgcolor="#FF0000">
-
-  <table width="313" height="48" border="0" align="center" bgcolor="#000066">
+<td width="58%" valign="top" bordercolor="#0033FF" bgcolor="#E3DEC1"><table width="634" height="48" border="0" align="center" cellspacing="4" bgcolor="#E3DEC1">
   <tr>
-    <th width="87" scope="col"><a href="aboutus.php" class="style5 style3">ABOUT US</a></th>
-    <th width="106" scope="col"><a href="contact.php" class="style5 style3">CONTACT</a></th>
-    <th width="106" scope="col"><a href="student.php" class="style5 style3">STUDENT</a></th>
+    <th width="98" bgcolor="#3300CC" scope="col"><a href="aboutus.php" class="style5 style3 style26 style16">ABOUT US</a></th>
+    <th width="86" bgcolor="#3300CC" scope="col"><a href="contact.php" class="style5 style3 style26 style16">CONTACT</a></th>
+    <th width="87" bgcolor="#3300CC" scope="col"><a href="student.php" class="style5 style3 style26 style16">STUDENT</a></th>
+	<th width="110" bgcolor="#3300CC" scope="col"><a href="portfolio.php" class="style5 style3 style26 style16">PORT FOLIO</a></th>
+	<th width="96" bgcolor="#3300CC" scope="col"><a href="paycheck.php" class="style5 style3 style26 style16">PAYCHECK</a></th>
+	<th width="117" bgcolor="#3300CC" scope="col"><a href="structure.php" class="style5 style3 style26 style16">STRUCTURE</a></th>
   </tr>
 </table>
-
   <p>&nbsp;</p>
-  <p align="center" class="style5 style15"><strong>Please contact us here </strong></p>
+  <div align="center" class="style22">
+    <p>PLEASE CONTACT US HERE   </p>
+    <p>&nbsp;</p>
+  </div>
   <table width="450px" align="center">
     <tr>
       <td valign="top"><label for="first_name">First Name </label></td>
-      <td valign="top"><input  type="text" name="first_name" maxlength="50" size="30" />
-      </td>
+      <td valign="top"><input  type="text" name="first_name" maxlength="50" size="30" />      </td>
     </tr>
     <tr>
-      <td valign="top""><label for="last_name">Last Name </label>
-      </td>
-      <td valign="top"><input  type="text" name="last_name" maxlength="50" size="30" />
-      </td>
+      <td valign="top""><label for="last_name">Last Name </label>      </td>
+      <td valign="top"><input  type="text" name="last_name" maxlength="50" size="30" />      </td>
     </tr>
     <tr>
-      <td valign="top"><label for="email">Email Address </label>
-      </td>
-      <td valign="top"><input  type="text" name="email" maxlength="80" size="30" />
-      </td>
+      <td valign="top"><label for="email">Email Address </label>      </td>
+      <td valign="top"><input  type="text" name="email" maxlength="80" size="30" />      </td>
     </tr>
     <tr>
-      <td valign="top"><label for="telephone">Telephone Number</label>
-      </td>
-      <td valign="top"><input  type="text" name="telephone" maxlength="30" size="30" />
-      </td>
+      <td valign="top"><label for="telephone">Telephone Number</label>      </td>
+      <td valign="top"><input  type="text" name="telephone" maxlength="30" size="30" />      </td>
     </tr>
     <tr>
-      <td valign="top"><label for="comments">Comments </label>
-      </td>
-      <td valign="top"><textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-      </td>
+      <td valign="top"><label for="comments">Comments </label>      </td>
+      <td valign="top"><textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>      </td>
     </tr>
-    
-  
-    
   </table>
   <p>&nbsp;</p>
   
@@ -175,66 +177,68 @@
       <label>
       <input type="reset" name="Reset" value="Reset" />
       </label>
-    </form>
-    </th>
+    </form>    </th>
     <th scope="col"><form id="form2" name="form2" method="post" action="">
       <label>
         <input type="submit" name="Submit2" value="Submit" />
         </label>
-    </form>
-    </th>
+    </form>    </th>
   </tr>
 </table>
-<p align ="center" class="style2" ><a href="index3.php"><img src="images/back36.png" /></a></p>
-</td>
+<p align ="center" class="style2" ><a href="index3.php"><img src="images/back36.png" /></a></p></td>
 <td width="20%" valign="top" bgcolor="#FFFFFF">
 
 <p align="center" class="style11">&nbsp;</p>
 <p align="center" class="style6">&nbsp;</p>
 <p align="center" class="style6">&nbsp;</p>
 <p align="center" class="style6">&nbsp;</p>
-<p>&nbsp;</p>
-</tr>
+<p>&nbsp;</p></tr>
 
 <!-- ============ FOOTER SECTION ============== -->
 
+
 <tr>
-  <td colspan="3" align="center" height="100" bgcolor="#000066"><p class="style5"><strong>SLAU Regional Offices</strong></p>
-    <table width="864" border="0">
+  <td colspan="3" align="center" height="100" bgcolor="#FFFFFF"><p class="style18">SLAU Regional Offices</p>
+    <table width="864" border="0" bgcolor="#FFFFFF">
+      
       <tr>
-        <th scope="col"><div align="left"><span class="style12">Mbarara Office (UG)</span> </div></th>
-        <th scope="col"><div align="left"><span class="style12">Mbale Office (UG) </span></div></th>
-        <th scope="col"><div align="left"><span class="style12">Lira Office (UG) </span></div></th>
-        <th scope="col"><div align="left"><span class="style12">Kigali Office (Rwanda) </span></div></th>
+        <th scope="col"><div align="left" class="style27 style19 style16 style20">Mbarara Office (UG) </div></th>
+        <th scope="col"><div align="left" class="style27 style19 style16 style20">Mbale Office (UG) </div></th>
+        <th scope="col"><div align="left" class="style27 style19 style16 style20">Lira Office (UG) </div></th>
+        <th scope="col"><div align="left" class="style27 style19 style16 style20">Kigali Office (Rwanda) </div></th>
       </tr>
       <tr>
-        <td><span class="style5">Mbarara Town </span></td>
-        <td><span class="style5">Manafwa Road </span></td>
-        <td><span class="style5">Uni Oil Service Station </span></td>
-        <td><span class="style5">Opposite former </span></td>
+        <td><span class="style30 style17 style21">Mbarara Town </span></td>
+        <td><span class="style30 style17 style21">Manafwa Road </span></td>
+        <td><span class="style30 style17 style21">Uni Oil Service Station </span></td>
+        <td><span class="style30 style17 style21">Opposite former </span></td>
       </tr>
       <tr>
-        <td><span class="style5">Makhansing Street </span></td>
-        <td><span class="style5">Near Main Tax Park </span></td>
-        <td><span class="style5">Plot 1 $ 2 Juda Road </span></td>
-        <td><span class="style5">Rwanda Revenue Authority </span></td>
+        <td><span class="style30 style17 style21">Makhansing Street </span></td>
+        <td><span class="style30 style17 style21">Near Main Tax Park </span></td>
+        <td><span class="style30 style17 style21">Plot 1 $ 2 Juda Road </span></td>
+        <td><span class="style30 style17 style21">Rwanda Revenue Authority </span></td>
       </tr>
       <tr>
-        <td><span class="style5">Kyosiga House Room 202 </span></td>
-        <td><span class="style5">Tel: +256 775 838 580 </span></td>
-        <td><span class="style5">Tel: +256 392 900 636 </span></td>
-        <td><span class="style5">Tel: +256 775 663 833</span></td>
+        <td><span class="style30 style17 style21">Kyosiga House Room 202 </span></td>
+        <td><span class="style30 style17 style21">Tel: +256 775 838 580 </span></td>
+        <td><span class="style30 style17 style21">Tel: +256 392 900 636 </span></td>
+        <td><span class="style30 style17 style21">Tel: +256 775 663 833</span></td>
       </tr>
       <tr>
-        <td><span class="style5">Tel: +256 775 663 833 </span></td>
+        <td><span class="style30 style17 style21">Tel: +256 775 663 833 </span></td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
-        <td><span class="style5">Tel: +256 775 663 833</span></td>
+        <td><span class="style30 style17 style21">Tel: +256 775 663 833</span></td>
       </tr>
     </table>
-  
+    <table width="1104" border="0" bordercolor="#FFFFFF" bgcolor="#000033">
+      <tr>
+        <th width="951" scope="col"><span class="style5">Copyright &copy; 2015 <em>All Rights Reserved</em> St Lawrence University</span></th>
+      </tr>
+    </table>
     <p>&nbsp;</p>
-    <div align="left"><font color="#FFFFFF">Copyright &copy; 2015 <em>All Rights Reserved</em> St Lawrence University </font></div></td>
+    <div align="left"></div></td>
 </tr>
 </table>
 </body>

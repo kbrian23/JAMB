@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
-<title>SLAU || ACCOUNTING </title>
+<title>SLAU || STUDENT </title>
 <style type="text/css">
 <!--
 .style5 {color: #FFFFFF}
@@ -67,8 +67,20 @@
 	.tfclear{
 		clear:both;
 	}
-.style17 {color: #FFFF00}
-.style18 {font-size: larger}
+.style18 {
+	font-size: larger;
+	color: #0000FF;
+}
+.style19 {font-family: Georgia, "Times New Roman", Times, serif}
+.style20 {color: #B94629}
+.style21 {color: #000033}
+.style22 {font-size: larger}
+.style23 {font-family: Arial, Helvetica, sans-serif}
+.style24 {	font-size: larger;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #FF0000;
+}
 </style>
 </head>
 
@@ -96,37 +108,41 @@
 
 
 <!-- ============ LEFT COLUMN (MENU) ============== -->
-  <td width="20%" valign="top" bgcolor="#FFFFFF">
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
+  <td width="20%" valign="top" bgcolor="#FFFFFF"><p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
   <table width="242" height="2" border="0" bgcolor="#0000FF">
     <tr>
-      <th width="251" height="72" scope="col"><marquee direction="left"><p class="style13 style14">Intakes at Slau</p>
-      </marquee>
+      <th width="251" height="72" scope="col"><marquee direction="left">
+        <p class="style13 style14 style3"><font color="#FFFFFF">Intakes at Slau</font></p>
+        </marquee>
       </th>
     </tr>
   </table>
-    <p>We have two intakes at St. Lawrence University (Slau) i.e. January/February and August/September intakes </p>
-    <p>&nbsp;</p>
+  <p><span class="style19">We have two intakes at St. Lawrence University (Slau) i.e. January/February and August/September intakes </span></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
     <h4 align="center"><br />
         <a href="#"></a><br />
         <a href="#"></a><br> 
         <a href="#"></a><br />
       <a href="#"></a></h4>
     <!-- ============ MIDDLE COLUMN (CONTENT) ============== -->
-<td width="58%" valign="top" bordercolor="#0033FF" bgcolor="#FF0000">
-
-  <table width="313" height="48" border="0" align="center" bgcolor="#000066">
+<td width="58%" valign="top" bordercolor="#0033FF" bgcolor="#E3DEC1"><table width="634" height="48" border="0" align="center" cellspacing="4" bgcolor="#E3DEC1">
   <tr>
-    <th width="87" scope="col"><a href="aboutus.php" class="style5 style3">ABOUT US</a></th>
-    <th width="106" scope="col"><a href="contact.php" class="style5 style3">CONTACT</a></th>
-    <th width="106" scope="col"><a href="student.php" class="style5 style3">STUDENT</a></th>
+    <th width="98" bgcolor="#3300CC" scope="col"><a href="aboutus.php" class="style5 style3 style26 style19">ABOUT US</a></th>
+    <th width="86" bgcolor="#3300CC" scope="col"><a href="contact.php" class="style5 style3 style26 style19">CONTACT</a></th>
+    <th width="87" bgcolor="#3300CC" scope="col"><a href="student.php" class="style5 style3 style26 style19">STUDENT</a></th>
+	<th width="110" bgcolor="#3300CC" scope="col"><a href="portfolio.php" class="style5 style3 style26 style19">PORT FOLIO</a></th>
+	<th width="96" bgcolor="#3300CC" scope="col"><a href="paycheck.php" class="style5 style3 style26 style19">PAYCHECK</a></th>
+	<th width="117" bgcolor="#3300CC" scope="col"><a href="structure.php" class="style5 style3 style26 style19">STRUCTURE</a></th>
   </tr>
 </table>
-
   <p>&nbsp;</p>
   <p align="center" class="style5 style18"><strong>STUDENT DETAILS </strong></p>
   <table width="385" border="0" align="center">
@@ -195,7 +211,7 @@
   </table>
   <form action="FileUpload.php" method="post" enctype="multipart/form-data">
     <h3 align="center">
-      <label for="upload"><span class="style17">Upload Bankdraft</span> </label>
+      <label for="upload"><span class="style12">Upload Bankdraft</span> </label>
     <input type="file" name="upload" id="upload">
     <input type="submit" name="submit" value="Upload">
 	</h3>
@@ -222,48 +238,51 @@
 
 <td width="20%" valign="top" bgcolor="#FFFFFF">
 
-<p align="center" class="style11">&nbsp;</p>
 </tr>
 
 <!-- ============ FOOTER SECTION ============== -->
 
 <tr>
-  <td colspan="3" align="center" height="100" bgcolor="#000066"><p class="style5"><strong>SLAU Regional Offices</strong></p>
-    <table width="864" border="0">
+  <td colspan="3" align="center" height="100" bgcolor="#FFFFFF"><P><span class="style24">SLAU Regional Offices </span></P>
+  <table width="864" border="0" bgcolor="#FFFFFF">
+    <tr>
+      <th scope="col"><div align="left" class="style27 style21 style19 style22">Mbarara Office (UG) </div></th>
+      <th scope="col"><div align="left" class="style27 style21 style19 style22">Mbale Office (UG) </div></th>
+      <th scope="col"><div align="left" class="style27 style21 style19 style22">Lira Office (UG) </div></th>
+      <th scope="col"><div align="left" class="style27 style21 style19 style22">Kigali Office (Rwanda) </div></th>
+    </tr>
+    <tr>
+      <td><span class="style30 style20 style23">Mbarara Town </span></td>
+      <td><span class="style30 style20 style23">Manafwa Road </span></td>
+      <td><span class="style30 style20 style23">Uni Oil Service Station </span></td>
+      <td><span class="style30 style20 style23">Opposite former </span></td>
+    </tr>
+    <tr>
+      <td><span class="style30 style20 style23">Makhansing Street </span></td>
+      <td><span class="style30 style20 style23">Near Main Tax Park </span></td>
+      <td><span class="style30 style20 style23">Plot 1 $ 2 Juda Road </span></td>
+      <td><span class="style30 style20 style23">Rwanda Revenue Authority </span></td>
+    </tr>
+    <tr>
+      <td><span class="style30 style20 style23">Kyosiga House Room 202 </span></td>
+      <td><span class="style30 style20 style23">Tel: +256 775 838 580 </span></td>
+      <td><span class="style30 style20 style23">Tel: +256 392 900 636 </span></td>
+      <td><span class="style30 style20 style23">Tel: +256 775 663 833</span></td>
+    </tr>
+    <tr>
+      <td><span class="style30 style20 style23">Tel: +256 775 663 833 </span></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><span class="style30 style20 style23">Tel: +256 775 663 833</span></td>
+    </tr>
+  </table>
+    <table width="1104" border="0" bordercolor="#FFFFFF" bgcolor="#000033">
       <tr>
-        <th scope="col"><div align="left"><span class="style12">Mbarara Office (UG)</span> </div></th>
-        <th scope="col"><div align="left"><span class="style12">Mbale Office (UG) </span></div></th>
-        <th scope="col"><div align="left"><span class="style12">Lira Office (UG) </span></div></th>
-        <th scope="col"><div align="left"><span class="style12">Kigali Office (Rwanda) </span></div></th>
-      </tr>
-      <tr>
-        <td><span class="style5">Mbarara Town </span></td>
-        <td><span class="style5">Manafwa Road </span></td>
-        <td><span class="style5">Uni Oil Service Station </span></td>
-        <td><span class="style5">Opposite former </span></td>
-      </tr>
-      <tr>
-        <td><span class="style5">Makhansing Street </span></td>
-        <td><span class="style5">Near Main Tax Park </span></td>
-        <td><span class="style5">Plot 1 $ 2 Juda Road </span></td>
-        <td><span class="style5">Rwanda Revenue Authority </span></td>
-      </tr>
-      <tr>
-        <td><span class="style5">Kyosiga House Room 202 </span></td>
-        <td><span class="style5">Tel: +256 775 838 580 </span></td>
-        <td><span class="style5">Tel: +256 392 900 636 </span></td>
-        <td><span class="style5">Tel: +256 775 663 833</span></td>
-      </tr>
-      <tr>
-        <td><span class="style5">Tel: +256 775 663 833 </span></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td><span class="style5">Tel: +256 775 663 833</span></td>
+        <th width="951" scope="col"><span class="style5">Copyright &copy; 2015 <em>All Rights Reserved</em> St Lawrence University</span></th>
       </tr>
     </table>
-  
     <p>&nbsp;</p>
-    <div align="left"><font color="#FFFFFF">Copyright &copy; 2015 <em>All Rights Reserved</em> St Lawrence University </font></div></td>
+    <div align="left"></div></td>
 </tr>
 </table>
 </body>
